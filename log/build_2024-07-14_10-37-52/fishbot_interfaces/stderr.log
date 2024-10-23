@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/motorcontorl.msg' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/hell0/esp32_car-7-14/extra_packages/fishbot_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:27 (rosidl_generate_interfaces)
+
+[0m

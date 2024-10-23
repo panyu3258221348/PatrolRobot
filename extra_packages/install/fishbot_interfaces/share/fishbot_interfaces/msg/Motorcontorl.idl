@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fishbot_interfaces/msg/Motorcontorl.msg
+// generated code does not contain a copyright notice
+
+
+module fishbot_interfaces {
+  module msg {
+    struct Motorcontorl {
+      float motor1;
+
+      float motor2;
+
+      float motor3;
+
+      float motor4;
+
+      float speed1;
+
+      float speed2;
+
+      float speed3;
+
+      float speed4;
+    };
+  };
+};

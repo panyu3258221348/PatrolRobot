@@ -1,0 +1,248 @@
+[0.008s] Invoking command in '/home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces -- -j4 -l4
+[0.031s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.117s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.160s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.164s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.335s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.625s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.644s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.644s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.644s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.658s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.659s] -- Configured cppcheck include dirs: 
+[0.659s] -- Configured cppcheck exclude dirs and/or files: 
+[0.660s] -- Added test 'lint_cmake' to check CMake code style
+[0.661s] -- Added test 'uncrustify' to check C / C++ code style
+[0.661s] -- Configured uncrustify additional arguments: 
+[0.661s] -- Added test 'xmllint' to check XML markup files
+[0.669s] -- Configuring done
+[0.713s] -- Generating done
+[0.716s] -- Build files have been written to: /home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces
+[0.733s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.742s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.752s] [  6%] Built target ament_cmake_python_copy_fishbot_interfaces
+[0.890s] running egg_info
+[0.890s] writing fishbot_interfaces.egg-info/PKG-INFO
+[0.890s] writing dependency_links to fishbot_interfaces.egg-info/dependency_links.txt
+[0.890s] writing top-level names to fishbot_interfaces.egg-info/top_level.txt
+[0.899s] reading manifest file 'fishbot_interfaces.egg-info/SOURCES.txt'
+[0.900s] writing manifest file 'fishbot_interfaces.egg-info/SOURCES.txt'
+[0.924s] [  6%] Built target fishbot_interfaces__cpp
+[0.925s] [  9%] [32mBuilding C object CMakeFiles/fishbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fishbot_interfaces/srv/detail/oledcontrol__functions.c.o[0m
+[0.930s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.932s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.936s] [ 16%] Built target ament_cmake_python_build_fishbot_interfaces_egg
+[0.967s] [ 19%] [32m[1mLinking C shared library libfishbot_interfaces__rosidl_generator_c.so[0m
+[0.972s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.023s] [ 22%] Built target fishbot_interfaces__rosidl_generator_c
+[1.030s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.077s] [ 29%] [32mBuilding CXX object CMakeFiles/fishbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fishbot_interfaces/srv/oledcontrol__type_support.cpp.o[0m
+[1.110s] [ 32%] [32mBuilding CXX object CMakeFiles/fishbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fishbot_interfaces/srv/detail/dds_fastrtps/oledcontrol__type_support.cpp.o[0m
+[1.136s] [ 35%] [32mBuilding CXX object CMakeFiles/fishbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fishbot_interfaces/srv/detail/oledcontrol__type_support.cpp.o[0m
+[1.187s] [ 38%] [32mBuilding CXX object CMakeFiles/fishbot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fishbot_interfaces/srv/detail/oledcontrol__type_support_c.cpp.o[0m
+[1.256s] [ 41%] [32m[1mLinking CXX shared library libfishbot_interfaces__rosidl_typesupport_cpp.so[0m
+[1.294s] [ 41%] Built target fishbot_interfaces__rosidl_typesupport_cpp
+[1.301s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.384s] [ 48%] [32m[1mLinking CXX shared library libfishbot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.389s] [ 51%] [32m[1mLinking CXX shared library libfishbot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.390s] [ 54%] [32m[1mLinking CXX shared library libfishbot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.453s] [ 54%] Built target fishbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.462s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.463s] [ 58%] Built target fishbot_interfaces__rosidl_typesupport_fastrtps_c
+[1.471s] [ 58%] Built target fishbot_interfaces__rosidl_typesupport_introspection_cpp
+[1.485s] [ 61%] [32mBuilding C object CMakeFiles/fishbot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fishbot_interfaces/srv/detail/oledcontrol__type_support.c.o[0m
+[1.508s] [ 64%] [32m[1mLinking C shared library libfishbot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.528s] [ 64%] Built target fishbot_interfaces__rosidl_typesupport_introspection_c
+[1.596s] [ 67%] [32mBuilding CXX object CMakeFiles/fishbot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fishbot_interfaces/srv/oledcontrol__type_support.cpp.o[0m
+[1.617s] [ 70%] [32m[1mLinking CXX shared library libfishbot_interfaces__rosidl_typesupport_c.so[0m
+[1.644s] [ 70%] Built target fishbot_interfaces__rosidl_typesupport_c
+[1.657s] [ 70%] Built target fishbot_interfaces
+[1.673s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.871s] [ 74%] Built target fishbot_interfaces__py
+[1.886s] [ 77%] [32mBuilding C object CMakeFiles/fishbot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fishbot_interfaces/srv/_oledcontrol_s.c.o[0m
+[1.959s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fishbot_interfaces/libfishbot_interfaces__rosidl_generator_py.so[0m
+[1.990s] [ 80%] Built target fishbot_interfaces__rosidl_generator_py
+[1.993s] [35m[1mConsolidate compiler generated dependencies of target fishbot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.993s] [35m[1mConsolidate compiler generated dependencies of target fishbot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.007s] [35m[1mConsolidate compiler generated dependencies of target fishbot_interfaces__rosidl_typesupport_c__pyext[0m
+[2.008s] [ 83%] [32mBuilding C object CMakeFiles/fishbot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.009s] [ 87%] [32mBuilding C object CMakeFiles/fishbot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.015s] [ 90%] [32mBuilding C object CMakeFiles/fishbot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.065s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.065s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.072s] [100%] [32m[1mLinking C shared library rosidl_generator_py/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.089s] [100%] Built target fishbot_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.092s] [100%] Built target fishbot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.103s] [100%] Built target fishbot_interfaces__rosidl_typesupport_c__pyext
+[2.114s] Invoked command in '/home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces -- -j4 -l4
+[2.162s] Invoking command in '/home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces
+[2.167s] -- Install configuration: ""
+[2.167s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/ament_index/resource_index/rosidl_interfaces/fishbot_interfaces
+[2.176s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/motorcontorl.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__functions.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__functions.c
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__struct.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__type_support.h
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__type_support.h
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__struct.h
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__functions.h
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__functions.c
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/oledcontrol.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/environment/library_path.sh
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/environment/library_path.dsv
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_generator_c.so
+[2.177s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_generator_c.so" to ""
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__rosidl_typesupport_fastrtps_c.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__rosidl_typesupport_fastrtps_c.h
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.177s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__rosidl_typesupport_introspection_c.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__type_support.c
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[2.177s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__type_support.c
+[2.177s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__rosidl_typesupport_introspection_c.h
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_introspection_c.so
+[2.178s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_c.so
+[2.178s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_c.so" to ""
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/motorcontorl.hpp
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__builder.hpp
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__traits.hpp
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__struct.hpp
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__struct.hpp
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__traits.hpp
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__builder.hpp
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/oledcontrol.hpp
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__rosidl_typesupport_fastrtps_cpp.hpp
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/dds_fastrtps
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/dds_fastrtps
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__rosidl_typesupport_fastrtps_cpp.hpp
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.178s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__type_support.cpp
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/detail/motorcontorl__rosidl_typesupport_introspection_cpp.hpp
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[2.178s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__type_support.cpp
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/oledcontrol__rosidl_typesupport_introspection_cpp.hpp
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.178s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.178s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_cpp.so
+[2.178s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.179s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/environment/pythonpath.sh
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/environment/pythonpath.dsv
+[2.179s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.179s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.179s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/msg
+[2.179s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/msg/__init__.py
+[2.179s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/msg/_motorcontorl.py
+[2.179s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/msg/_motorcontorl_s.c
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/__init__.py
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv/_oledcontrol.py
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv/__init__.py
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv/_oledcontrol_s.c
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_c.c
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/libfishbot_interfaces__rosidl_generator_py.so
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.179s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.194s] Listing '/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces'...
+[2.194s] Compiling '/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/__init__.py'...
+[2.194s] Listing '/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/msg'...
+[2.194s] Listing '/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv'...
+[2.194s] Compiling '/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv/__init__.py'...
+[2.194s] Compiling '/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv/_oledcontrol.py'...
+[2.196s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.196s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.196s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.197s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.197s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.197s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.199s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_generator_py.so
+[2.199s] -- Set runtime path of "/home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_generator_py.so" to ""
+[2.199s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/srv/Oledcontrol.idl
+[2.199s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/srv/Oledcontrol.srv
+[2.199s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/srv/Oledcontrol_Request.msg
+[2.199s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/srv/Oledcontrol_Response.msg
+[2.199s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/ament_index/resource_index/package_run_dependencies/fishbot_interfaces
+[2.200s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/ament_index/resource_index/parent_prefix_path/fishbot_interfaces
+[2.200s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/environment/ament_prefix_path.sh
+[2.200s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/environment/ament_prefix_path.dsv
+[2.200s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/environment/path.sh
+[2.200s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/environment/path.dsv
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/local_setup.bash
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/local_setup.sh
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/local_setup.zsh
+[2.201s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/local_setup.dsv
+[2.201s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/package.dsv
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/ament_index/resource_index/packages/fishbot_interfaces
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_cExport.cmake
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.201s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_cExport.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_cppExport.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_cppExport.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_pyExport.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.202s] -- Installing: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.202s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.203s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.203s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.203s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfacesConfig.cmake
+[2.203s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfacesConfig-version.cmake
+[2.203s] -- Up-to-date: /home/hell0/esp32_car2/extra_packages/install/fishbot_interfaces/share/fishbot_interfaces/package.xml
+[2.203s] Invoked command in '/home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces

@@ -1,0 +1,7 @@
+{
+  "package_name": "fishbot_interfaces",
+  "non_idl_tuples": [
+    "/home/hell0/esp32_car2/extra_packages/fishbot_interfaces:srv/Oledcontrol.srv",
+    "/home/hell0/esp32_car2/extra_packages/fishbot_interfaces:msg/Motorcontorl.msg"
+  ]
+}

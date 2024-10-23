@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:40 (install):
+  install TARGETS given target "fishbot_interfaces" which is not an
+  executable, library, or module.
+
+[0m
+gmake: *** [Makefile:963：cmake_check_build_system] 错误 1

@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces -- -j4 -l4
+[0.037s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.170s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.172s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.330s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.685s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.698s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.698s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.698s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.707s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.707s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.707s]   before
+[0.707s] Call Stack (most recent call first):
+[0.707s]   CMakeLists.txt:34 (ament_target_dependencies)
+[0.707s] 
+[0.707s] [0m
+[0.707s] -- Configuring incomplete, errors occurred!
+[0.707s] See also "/home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.715s] gmake: *** [Makefile:963：cmake_check_build_system] 错误 1
+[0.715s] Invoked command in '/home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hell0/esp32_car2/extra_packages/build/fishbot_interfaces -- -j4 -l4

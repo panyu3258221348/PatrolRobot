@@ -1,0 +1,10 @@
+setup.py
+fishbot_interfaces/__init__.py
+fishbot_interfaces.egg-info/PKG-INFO
+fishbot_interfaces.egg-info/SOURCES.txt
+fishbot_interfaces.egg-info/dependency_links.txt
+fishbot_interfaces.egg-info/top_level.txt
+fishbot_interfaces/msg/__init__.py
+fishbot_interfaces/msg/_motorcontorl.py
+fishbot_interfaces/srv/__init__.py
+fishbot_interfaces/srv/_oledcontrol.py
