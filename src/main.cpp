@@ -266,6 +266,7 @@
 #define MB_pin_1 48
 #define MB_pin_2 45
 Esp32PcntEncoder encoders[2]; // 创建一个数组用于存储两个编码器
+HardwareSerial SerialPort(1); // 使用UART1
 MyMotor motor1_485(&SerialPort,0x01);
 MyMotor motor2_485(&SerialPort,0x02);
 int64_t last_ticks[2]; // 记录上一次读取的计数器数值
@@ -280,7 +281,7 @@ Adafruit_SSD1306 display;
 rcl_publisher_t odom_publisher;   // 用于发布机器人的里程计信息（Odom）
 nav_msgs__msg__Odometry odom_msg; // 机器人的里程计信息
 
-HardwareSerial SerialPort(1); // 使用UART1
+
 
 TaskHandle_t Task1;
 portMUX_TYPE timerMux = portMUX_INITIALIZER_UNLOCKED;
